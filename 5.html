@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Blog Design Template With Comments Powered By DISQUS</title>
+
+</head>
+
+<body>
+
+<style>
+  
+  html,body {
+  width: 100%;
+  height: 100%;
+  }  
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+ font-family: verdana, monospace, 'Open Sans', Helvetica, sans-serif;
+ font-size: 18px;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 5%;
+  background-color: #e7d16c;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: darkkhaki;
+  margin-top: -58px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+}
+
+p {
+  width: 80%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #CAB6EB;
+   padding: 20px;
+   margin-top: -40px;
+   width: 80%; 
+   margin: 0 auto;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn, .fakeimg, .card, p {   
+  width: 100%;
+  height: auto%;
+  padding: 0;
+  }
+}
+</style>
+
+<link href="oswald.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <p style="font: 700 2.5rem/1 'Oswald', sans-serif;margin-top: 1px;margin-bottom: 1px;">Investing in NCD prevention to finance sustainable development</p>
+      <p style="font: 700 1.00rem 'Oswald', sans-serif;border-top: 3px solid #333333;border-bottom: 3px solid #333333;padding: 6px 0;display: block;">Published on March 01, 2023</p>
+      <div class="fakeimg" style="height:400px;"><img src="5.png" alt="" style="width:100%;height:100%;display:block;margin-left:auto;margin-right:auto;"></div>
+
+      <p> Noncommunicable diseases have overtaken communicable diseases as the primary cause of premature deaths and disabilities globally. NCDs usually demand chronic treatment requiring decades and decades of treatment. Smoking, drinking, poor nutritional habits, lack of exercise, obesity, stress, air pollution, crowded large cities, and the lifestyles billions of people have adopted have increased the number of people living with NCDs, and — just as our lifestyles are products of multiple inputs — addressing NCDs similarly requires action on multiple fronts. </p>
+      <p> Their costs to economies, health systems, and individuals are increasing each hour, and gains from years of sustained economic growth and poverty reduction programs are starting to be at risk of being reversed as more people are finding themselves living below the poverty line as a result of NCDs. </p>
+      <p> Last July, the Asian Development Bank convened nearly 200 experts, country representatives, medical practitioners, academics, and policy-makers from across the world to share experiences on innovations and actions, particularly around health financing to help address the burden of NCDs in Asia. </p>
+      <p> The need for increased financing for the fight against NCDs was highlighted by Thaksaphon Thamarangsi of the World Health Organization when he bemoaned the sad reality that countries are not investing enough against NCDs and are “fighting the NCD monsters with plastic guns.” </p>
+
+    </div>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = this.page.url; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://myblog-templates.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</body>
+</html>

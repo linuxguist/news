@@ -1,0 +1,23 @@
+Steps to Create Your Own Website News, Magazine, Blogs, Articles etc.
+
+1. Double Click the index.html file to view it on the Internet Browser and click on the various links in it, to view them as well.
+
+2. Parallely, Edit the index.html file on a Good Text / Code Editor like Sublime Text ( Check Google ) to meet your requirements.
+
+3. Create a copy of the Blog_Template.html file with a name like 7.html and edit your News / Article details.
+
+4. Link your article to the index.html file, by seeing the examples already used there.
+
+5. Save all the editor changes and refresh the files on the internet browser to see the effect.
+
+That's all.
+
+If you see this message at the bottom of all the blog pages : "We were unable to load Disqus. If you are a moderator please see our troubleshooting guide."  This means that these pages have to be uploaded to your own webserver first, for the free Disqus comments to work. Offcourse, you are welcome to modify the Disqus script below each page, after signing up on the Disqus website and getting your own version of it, from them. 
+
+If you need more Beautiful Webfonts for Your Own Language, then please view my Projects Profile Webpage : https://sourceforge.net/u/nathan-sr/profile/ and click Show More button below and then search for Languages there ( atleast twice ). Follow the instructions given in those downloads there.
+
+If you are a starter in web designing, you can also use the 
+
+1. HTML_tags.html file to learn quickly about the html language.
+
+2. Open the "Easily_Create_Professional_Online_FAQ,_Docs,_Books,_Tutorials,_Manuals_etc._With_This_Example_Template" folder html files and edit it to your own requirements.

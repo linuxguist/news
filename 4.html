@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Blog Design Template With Comments Powered By DISQUS</title>
+
+</head>
+
+<body>
+
+<style>
+  
+  html,body {
+  width: 100%;
+  height: 100%;
+  }  
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+ font-family: verdana, monospace, 'Open Sans', Helvetica, sans-serif;
+ font-size: 18px;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 5%;
+  background-color: #e7d16c;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: darkkhaki;
+  margin-top: -58px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 80%;
+  padding: 20px;
+}
+
+p {
+  width: 80%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #CAB6EB;
+   padding: 20px;
+   margin-top: -40px;
+   width: 80%; 
+   margin: 0 auto;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn, .fakeimg, .card, p {   
+  width: 100%;
+  height: auto%;
+  padding: 0;
+  }
+}
+</style>
+
+<link href="oswald.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <p style="font: 700 2.5rem/1 'Oswald', sans-serif;margin-top: 1px;margin-bottom: 1px;">How Colombia battled big tobacco and won</p>
+      <p style="font: 700 1.00rem 'Oswald', sans-serif;border-top: 3px solid #333333;border-bottom: 3px solid #333333;padding: 6px 0;display: block;">Published on March 01, 2023</p>
+      <div class="fakeimg" style="height:400px;"><img src="4.png" alt="" style="width:100%;height:100%;display:block;margin-left:auto;margin-right:auto;"></div>
+
+      <p> GRANADA, Spain — Taxes on unhealthy products — tobacco, alcohol, and sugar — are among the most effective “best buys” advocated by the World Health Organization to reduce risk factors leading to noncommunicable diseases. With regard to tobacco, not only do taxes typically discourage smoking, leading to greater health benefits, but they can increase revenues diverted to health services. Successfully implementing such taxes, however, can be a major challenge — particularly for low- and middle-income countries. </p>
+      <p> Prior to 2008, Colombia had one of the lowest taxes on tobacco products in the region, and the rate of tobacco use — particularly among children between 13-15 years old — was one of the highest in the region. Fast forward to 2018, and tobacco use has dropped by 15 percent after the first year of the reform. </p>
+      <p> The Colombian implementation of tobacco tax is being held up as a success story. Yet the process of convincing and bringing together different sectors of government and the public to support higher tobacco taxes was an uphill battle involving multistakeholder cooperation — and a lot of trial and error. Colombia’s story is an excellent case study for stakeholders in other LMICs hoping to push through similar taxes. </p>
+      <p> “Increasing tobacco taxes is a process that requires a lot of patience — it’s not something that happens in one month,” said Andrea Lara Sánchez, a political consultant who worked with the Colombian department of health to raise tobacco taxes. “It’s important to recognize that you’ll be successful sometimes, and you’ll fail sometimes, so it’s important to have realistic objectives and a long-term plan.” </p>
+
+    </div>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = this.page.url; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://myblog-templates.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</body>
+</html>
